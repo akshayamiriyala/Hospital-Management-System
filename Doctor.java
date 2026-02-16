@@ -14,7 +14,6 @@ public class Doctors {
 		this.connection=connection;
 	}
 	
-
 	public void ViewDoctors() {
 		String query="select * from Doctors";
 		try {
